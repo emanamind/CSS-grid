@@ -1,0 +1,27 @@
+.box1{
+    background-color: rgb(240, 81, 134);
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.box2{
+    background-color: rgb(255, 136, 0);
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 9px;
+    height: 100%;
+
+}
